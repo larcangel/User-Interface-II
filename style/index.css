@@ -95,29 +95,30 @@ header {
   text-align: center;
   padding: 15px;
 }
-h1 {
+h1,
+h2 {
   font-size: 2rem;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 nav a {
-  color: black;
+  color: #808686;
   border: 1px solid black;
   padding: 0.5em 1.25em;
   text-decoration: none;
   margin: 0;
 }
 nav a:hover {
-  background-color: black;
+  background-color: #add5d5;
   color: white;
 }
 nav {
   display: flex;
   justify-content: center;
 }
-.active {
-  background-color: black;
-  color: white;
+.container {
+  padding: 1% 0;
+  text-align: center;
 }
 img {
   max-width: 100%;
@@ -129,6 +130,12 @@ img {
   width: 20%;
   margin: 1%;
 }
+.images p {
+  text-justify: auto;
+}
 footer {
   text-align: center;
+  border: 1px solid black;
+  padding: 30px;
+  background-color: #add5d5;
 }
