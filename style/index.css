@@ -32,7 +32,8 @@ vertical-align: baseline;
 }
 
 body {
-    background-color: blueviolet;
+    margin: auto;
+    
 }
 section {
 
@@ -41,5 +42,31 @@ section {
 h1, h2, h3 {
 
 }
+h1, h2 {
+    font-size: 36px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding:4%;
+}
+p {
+    text-align: center;
+    padding:4%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /*header section styles */
+
+.links {
+    padding: 4;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
