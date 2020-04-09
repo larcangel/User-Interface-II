@@ -25,12 +25,21 @@ vertical-align: baseline;
 
 
 
-/* Heading */
+/* General styles */
 * {
     box-sizing:border-box;
-    border:1px solid grey;
-    
+    border:1px solid grey;   
 }
 
+body {
+    background-color: blueviolet;
+}
+section {
 
+}
 
+h1, h2, h3 {
+
+}
+
+/*header section styles */
