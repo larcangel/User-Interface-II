@@ -130,12 +130,15 @@ img {
   width: 20%;
   margin: 1%;
 }
-.images p {
-  text-justify: auto;
-}
 footer {
   text-align: center;
   border: 1px solid black;
   padding: 30px;
   background-color: #add5d5;
+}
+button {
+  color: #808686;
+  border: 1px solid black;
+  padding: 0.5em 1.25em;
+  margin: 0;
 }
