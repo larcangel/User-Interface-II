@@ -90,6 +90,7 @@ video {
 }
 
 /* General styles */
+
 header {
   text-align: center;
   padding: 1.5rem;
@@ -103,7 +104,7 @@ h2 {
 
 header nav a {
   color: #808686;
-  border: 1px solid black;
+  border: 0.25px solid lightblue;
   padding: 0.5em 1.25em;
   text-decoration: none;
   margin: 0;
@@ -131,9 +132,11 @@ img {
   width: 20%;
   margin: 1%;
 }
+.lastp {
+  padding-top: 10%;
+}
 footer {
   text-align: center;
-  border: 1px solid black;
   padding: 30px;
   background-color: #add5d5;
 }
@@ -188,8 +191,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: yellow;
-    color: yellowgreen;
     width: 100%;
   }
   .images {
@@ -199,5 +200,9 @@ button:hover {
   }
   .images img {
     width: 100%;
+  }
+  .lastp {
+    padding: 0 40%;
+    text-align: center;
   }
 }
