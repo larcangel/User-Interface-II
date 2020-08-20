@@ -101,16 +101,19 @@ h2 {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
+p {
+  color: #525454;
+}
 
 header nav a {
-  color: #808686;
-  border: 0.25px solid lightblue;
+  color: #525454;
+  border: 0.25px solid #b2c2c2;
   padding: 0.5em 1.25em;
   text-decoration: none;
   margin: 0;
 }
 nav a:hover {
-  background-color: #add5d5;
+  background-color: #b2c2c2;
   color: white;
   text-transform: uppercase;
 }
@@ -138,7 +141,7 @@ img {
 footer {
   text-align: center;
   padding: 30px;
-  background-color: #add5d5;
+  background-color: #b2c2c2;
 }
 button {
   color: #808686;
@@ -170,7 +173,12 @@ button:hover {
 .fa:hover {
   opacity: 0.7;
 }
+.lastp {
+  font-weight: lighter;
+  font-size: 1rem;
+}
 
+/*Start of 800px responsive*/
 @media (max-width: 800px) {
   header nav a {
     background-color: cornflowerblue;
@@ -185,7 +193,9 @@ button:hover {
   .images img {
     width: 40%;
   }
-}
+} /*End of Media query*/
+
+/*Start of 500px responsive*/
 @media (max-width: 500px) {
   header nav {
     display: flex;
@@ -205,4 +215,4 @@ button:hover {
     padding: 0 40%;
     text-align: center;
   }
-}
+} /*End of media query*/
